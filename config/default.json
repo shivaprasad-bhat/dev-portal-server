@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://admin:admin@socialmed.ju5qm.mongodb.net/social?retryWrites=true&w=majority",
+    "JWT_SECRET": "mysecrettoken"
+}
