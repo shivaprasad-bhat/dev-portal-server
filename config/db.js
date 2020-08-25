@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const config = require('config');
 const db = config.get('mongoURI');
+require('colors');
 
 const connectDb = async () => {
     try {
@@ -10,7 +11,7 @@ const connectDb = async () => {
             useCreateIndex: true,
             useFindAndModify: false,
         });
-        console.log(`Mongodb Connected`);
+        console.log(`Mongodb Connected`.brightCyan.inverse);
     } catch (err) {
         console.log(err.message);
         //Exit
