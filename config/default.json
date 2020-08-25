@@ -1,4 +1,6 @@
 {
     "mongoURI": "mongodb+srv://admin:admin@socialmed.ju5qm.mongodb.net/social?retryWrites=true&w=majority",
-    "JWT_SECRET": "mysecrettoken"
+    "JWT_SECRET": "mysecrettoken",
+    "githubClientId": "c680adc150dce5b4fd24",
+    "githubSecret": "52c0d9206b966baee4075ac55a534100cbcfd195"
 }
